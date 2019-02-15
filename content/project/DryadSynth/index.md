@@ -8,7 +8,7 @@ draft = false
 tags = []
 
 # Project summary to display on homepage.
-summary = ""
+summary = "A [Syntax-Guided Synthesis (SyGuS)](http://sygus.org/language.html) solver that combines explicit search and symbolic search."
 
 # Slides (optional).
 #   Associate this page with Markdown slides.
