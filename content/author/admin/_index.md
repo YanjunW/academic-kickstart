@@ -20,15 +20,22 @@ email = "wang3204@purdue.edu"
 
 # List (academic) interests or hobbies
 interests = [
+  "Program Synthesis",
   "Program Verification",
-  "Program Synthesis"
+  "Program Analysis",
+  "Program Logic"
 ]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
+  course = "Ph.D. in Computer Engineering"
+  institution = "Purdue University"
+  year = "2022 (expected)"
+
+[[education.courses]]
   course = "B.Eng. in Electrical Engineering"
   institution = "Huazhong University of Science and Technology"
-  year = 2016
+  year = "2016"
 
 #[[education.courses]]
 #  course = "MEng in Artificial Intelligence"
@@ -67,11 +74,15 @@ interests = [
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[social]]
-#   icon = "cv"
-#   icon_pack = "ai"
-#   link = "files/cv.pdf"
+[[social]]
+   icon = "cv"
+   icon_pack = "ai"
+   link = "files/cv.pdf"
 
 +++
 
-Hi, I am a Ph.D. student in the [School of Electrical and Computer Engineering](https://engineering.purdue.edu/ECE) at [Purdue University](https://www.purdue.edu/) under the supervision of [Prof.Xiaokang Qiu](https://engineering.purdue.edu/~xqiu/). My research interests include program verification and program synthesis. Before starting my studies at Purdue, I received my B.Eng. in Electrical Engineering at [Huazhong University of Science and Technology, China](http://english.hust.edu.cn/).
+Hi, I am a Ph.D. student in the [School of Electrical and Computer Engineering](https://engineering.purdue.edu/ECE) at [Purdue University](https://www.purdue.edu/) under the supervision of [Prof.Xiaokang Qiu](https://engineering.purdue.edu/~xqiu/).
+
+My research area is programming languages, especially with interests on program synthesis, program verification and program analysis. I work on designing frameworks that generate provably-correct programs automatically according to both syntactic constraints and semantic specifications. I also work on techniques that analyze tree-related programs as well as check the correctness of program transformations. My recent research lies at the intersection of programming languages and computer network.
+
+Before starting my studies at Purdue, I received my B.Eng. in Electrical Engineering at [Huazhong University of Science and Technology, China](http://english.hust.edu.cn/).

@@ -20,10 +20,34 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  title = "1st Place in CLIA Track of [Syntax-Guided Synthesis Competition 2019 (SyGuS-Comp'19)](https://sygus.org/comp/2019/)"
+  organization = "SyGuS-Comp 2019"
+  certificate_url = ""
+  date_start = "2019-07-14"
+  date_end = ""
+  description = ""
+
+[[item]]
+  title = "1st Place in CLIA Track of [Syntax-Guided Synthesis Competition 2018 (SyGuS-Comp'18)](https://sygus.org/comp/2018/)"
+  organization = "SyGuS-Comp 2018"
+  certificate_url = ""
+  date_start = "2018-07-14"
+  date_end = ""
+  description = ""
+
+[[item]]
   title = "Silver Medal in the [ACM Student Research Competition (SRC)](https://popl18.sigplan.org/track/POPL-2018-Student-Research-Competition#SRC-Winners)"
   organization = "POPL 2018"
   certificate_url = ""
   date_start = "2018-01-08"
+  date_end = ""
+  description = ""
+
+[[item]]
+  title = "2nd Place in INV Track of [Syntax-Guided Synthesis Competition 2017 (SyGuS-Comp'17)](https://sygus.org/comp/2017/)"
+  organization = "SyGuS-Comp 2017"
+  certificate_url = ""
+  date_start = "2017-07-14"
   date_end = ""
   description = ""
 

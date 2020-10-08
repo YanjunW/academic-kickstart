@@ -1,6 +1,6 @@
 +++
-title = "Syntax-Guided Gradual Synthesis"
-date = 2019-02-13T00:46:47-05:00
+title = "Reconciling enumerative and deductive program synthesis"
+date = 2020-06-19
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -15,15 +15,15 @@ authors = ["Kangjing Huang", "Xiaokang Qiu", "Peiyuan Shen", "**Yanjun Wang**"]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
-publication_types = ["3"]
+publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Syntax-Guided Gradual Synthesis"
-publication_short = ""
+publication = "*41st ACM SIGPLAN Conference on Programming Language Design and Implementation*"
+publication_short = "PLDI 2020"
 
 # Abstract and optional shortened version.
-abstract = "Syntax-guided synthesis aims to find a program satisfying semantic specification as well as user-provided structural hypotheses. There are two main search strategies: concrete search, which systematically or stochastically enumerates all possible solutions, and symbolic search, which leverages a symbolic procedure to solve the synthesis problem. In this paper, we propose a gradual synthesis framework, a novel combination of the two strategies that combines the best of the two worlds. The framework is a synergy of three key ideas: height-based enumeration (solving the synthesis problem at every height symbolically); grammar extension (sim- plifying the synthesis problem using the failed candidate); and pure symbolic synthesis (ad hoc, decidable synthesis procedures for special classes of problems). We prototyped the gradual synthesis framework and evaluated it on a wide range of benchmarks. Experiments show that the new synthesis framework can solve many challenging synthesis problems not possible before."
-abstract_short = "Under submission."
+abstract = "Syntax-guided synthesis (SyGuS) aims to find a program satisfying semantic specification as well as user-provided structural hypotheses. There are two main synthesis approaches: enumerative synthesis, which repeatedly enumerates possible candidate programs and checks their correctness, and deductive synthesis, which leverages a symbolic procedure to construct implementations from specifications. Neither approach is strictly better than the other: automated deductive synthesis is usually very efficient but only works for special grammars or applications; enumerative synthesis is very generally applicable but limited in scalability. In this paper, we propose a cooperative synthesis technique for SyGuS problems with the conditional linear integer arithmetic (CLIA) background theory, as a novel integration of the two approaches, combining the best of the two worlds. The technique exploits several novel divide-and-conquer strategies to split a large synthesis problem to smaller subproblems. The subproblems are solved separately and their solutions are combined to form a final solution. The technique integrates two synthesis engines: a pure deductive component that can efficiently solve some problems, and a height-based enumeration algorithm that can handle arbitrary grammar. We implemented the cooperative synthesis technique, and evaluated it on a wide range of benchmarks. Experiments showed that our technique can solve many challenging synthesis problems not possible before, and tends to be more scalable than state-of-the-art synthesis algorithms."
+abstract_short = ""
 
 # Is this a featured publication? (true/false)
 featured = false
@@ -54,17 +54,17 @@ url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = ""
+url_slides = "pldi2020.ppsx"
 url_video = ""
 url_poster = ""
-url_source = ""
+url_source = "https://github.com/purdue-cap/DryadSynth"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "https://doi.org/10.1145/3385412.3386027"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
