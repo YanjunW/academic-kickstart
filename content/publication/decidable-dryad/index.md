@@ -1,5 +1,5 @@
 +++
-title = "A Decidable Logic for Tree Data-Structures with Measurements"
+title = "[VMCAI'19] A Decidable Logic for Tree Data-Structures with Measurements"
 date = 2019-01-01
 authors = ["Xiaokang Qiu", "**Yanjun Wang**"]
 publication_types = ["1"]

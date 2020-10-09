@@ -1,5 +1,5 @@
 +++
-title = "Reconciling enumerative and deductive program synthesis"
+title = "[PLDI'20] Reconciling enumerative and deductive program synthesis"
 date = 2020-06-19
 draft = false
 

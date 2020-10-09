@@ -1,5 +1,5 @@
 +++
-title = "Learning Network Design Objectives Using A Program Synthesis Approach"
+title = "[HotNets'19] Learning Network Design Objectives Using A Program Synthesis Approach"
 date = 2019-11-18
 draft = false
 
